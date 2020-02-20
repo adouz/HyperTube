@@ -1,6 +1,6 @@
 //const MongoClient = require('mongodb').MongoClient;
 const mongoose = require("mongoose");
-const uri = "mongodb+srv://root:chlaybch@cluster0-t7fsc.gcp.mongodb.net/Hypertube?retryWrites=true&w=majority";
+const uri = "";
 //const client = new MongoClient(uri, { useNewUrlParser: true });
 mongoose.connect(uri, { useNewUrlParser: true,useUnifiedTopology: true, useCreateIndex: true });
 // client.connect(err => {
